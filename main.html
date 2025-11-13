@@ -1,32 +1,24 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Job Application Form</title>
 </head>
-<bod<h2>Job Application Form</h2>
+<body>
+  <h2>Job Application Form</h2>
 
-  <form method="POST">
-  
-    <label for="name">Name:</label><br>
+  <form method="post">
+
+    <label for="name">Name*:</label><br>
     <input type="text" id="name" name="name" required><br><br>
 
 
-    <label for="email">Email:</label><br>
+    <label for="email">Email*:</label><br>
     <input type="email" id="email" name="email" required><br><br>
 
-  
-    <label>Gender:</label><br>
+
+    <label>Gender*:</label><br>
     <input type="radio" id="male" name="gender" value="male" required>
     <label for="male">Male</label><br>
     <input type="radio" id="female" name="gender" value="female" required>
@@ -34,7 +26,7 @@
     <input type="radio" id="other" name="gender" value="other" required>
     <label for="other">Other</label><br><br>
 
-    
+
     <label for="laptop">Laptop Brand:</label><br>
     <select id="laptop" name="laptop">
       <option value="apple">Apple</option>
@@ -42,23 +34,23 @@
       <option value="hp">HP</option>
     </select><br><br>
 
-    <label for="age">Age:</label><br>
+
+    <label for="age">Age*:</label><br>
     <input type="number" id="age" name="age" required><br><br>
 
-    <label for="dob">Date of Birth:</label><br>
+
+    <label for="dob">Date of Birth*:</label><br>
     <input type="date" id="dob" name="dob" required><br><br>
 
-    
-    <label for="password">Password:</label><br>
+
+    <label for="password">Password*:</label><br>
     <input type="password" id="password" name="password" required><br><br>
 
-    
+
     <label for="portfolio">Portfolio URL:</label><br>
     <input type="url" id="portfolio" name="portfolio"><br><br>
 
-   
     <button type="submit">Submit</button>
   </form>
 </body>
-
 </html>
